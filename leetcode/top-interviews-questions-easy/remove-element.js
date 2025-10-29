@@ -47,7 +47,7 @@ Constraints:
 0 <= val <= 100
  */
 
-function removeElement(nums, val) {
+export function removeElement(nums, val) {
   let i = 0;
   let j = nums.length - 1;
   while (i <= j) {
