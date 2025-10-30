@@ -1,0 +1,27 @@
+{
+  "name": "tech-learning",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/danielbxs/tech-learning#readme",
+  "bugs": {
+    "url": "https://github.com/danielbxs/tech-learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbxs/tech-learning.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "jest": {
+    "transform": {},
+    "testEnvironment": "node"
+  }
+}
